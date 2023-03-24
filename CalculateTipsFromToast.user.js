@@ -35,7 +35,7 @@ if(document.location.href == "https://myppcstore.com/FrontOfHouse_GiftCard.php")
                          content = content + '<div class="box box-primary"><div class="box-header"><h3 class="box-title">' + curr.Employee + '</h3></div><div class="box-body"><ul><li>Hours Worked: ' + curr["Regular Hours"] + '</li><li>Tips Earned: $' + Math.floor(parseFloat(curr["Regular Hours"]) * tipsPerHour) + '</li></div></div>';
                          left = left - (parseFloat(curr["Regular Hours"]) * tipsPerHour);
                      });
-                     content = content + '<p>Remaining: $' + Math.floor(left) + ' - This is from flooring values and may look like a large number. Give it to staff who deserves it!</div></div></section>';
+                     content = content + '<p>Tips per hour: $' + tipsPerHour + '<br>Total Hours: ' + Math.floor(totalHours) + '</p></div></div></section>';
                      $(".content").html(content);
                  }
                  await reader.readAsText(document.getElementById("toastFile").files[0]);
