@@ -30,7 +30,6 @@ if(document.location.href == "https://myppcstore.com/FrontOfHouse_GiftCard.php")
                          totalHours = totalHours + parseFloat(curr["Regular Hours"]);
                      });
                      var tipsPerHour = Math.floor(tips / totalHours);
-                     alert(tipsPerHour);
                      dat.forEach(function(item, index, array) {
                          curr= array[index];
                          content = content + '<div class="box box-primary"><div class="box-header"><h3 class="box-title">' + curr.Employee + '</h3></div><div class="box-body"><ul><li>Hours Worked: ' + curr["Regular Hours"] + '</li><li>Tips Earned: $' + Math.floor(parseFloat(curr["Regular Hours"]) * tipsPerHour) + '</li></div></div>';
