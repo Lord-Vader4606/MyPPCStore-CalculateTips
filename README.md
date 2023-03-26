@@ -33,6 +33,6 @@ This will automatically check for an update and install one if available, it wil
   <li><strong>Installing the file from the repository didn’t work</strong>
   <ul><li>If the installation didn’t happen automatically, it’s likely that your TamperMonkey installation is invalid. You can try installing the script manually by opening the repository file and then copy and pasting the code into a TamperMonkey script which you can create on the Dashboard. However, if this doesn’t work either, consult the “Trouble Installing TamperMonkey” area for help.</li></ul>
   <li><strong>I have another issue</strong>
-  <ul><li>Email me at using my ppc email. Though I'd like to note that except when there are house accounts, the script has (so far) had a 100% success rate for me. If you are experiencing issues it likely means you either installed it incorrectly or did not load Toast correctly.</li></ul>
+  <ul><li>Email me at using my ppc email. If you are experiencing issues it likely means you either installed it incorrectly or did not load Toast correctly.</li></ul>
   </li>
 </ul>
