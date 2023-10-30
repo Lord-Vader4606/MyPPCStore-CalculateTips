@@ -1,3 +1,4 @@
+**_IMPORTANT_** This program was sunset after the MyPPCStore gift card system was removed. https://myppcstore.com **_IMPORTANT_**
 # MyPPCStore-CalculateTips
 A simple tool to calculate tip payouts using the ToastPOS payroll sheet. Works exclusively with myppcstore. This program is not officially endorsed by, nor directly affiliated with, Pizza Pie Cafe. This tool remains Copyright (c) Erik Christensen, all other programs are property of their respective owners.
 
